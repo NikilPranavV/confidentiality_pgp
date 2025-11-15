@@ -12,38 +12,6 @@ The implementation follows modern best practices and includes:
 ✔ CommonJS modules
 ✔ TXT file encryption workflow
 
-📁 Project Folder Structure
-pgp-confidentiality/
-│
-├── .env
-├── package.json
-├── README.md
-│
-├── keys/                     # Generated automatically after running key generator
-│   ├── sender-private.asc
-│   ├── sender-public.asc
-│   ├── recipient-private.asc
-│   └── recipient-public.asc
-│
-├── src/
-│   ├── config/
-│   │   └── env.js
-│   │
-│   ├── utils/
-│   │   └── file.js
-│   │
-│   ├── pgp/
-│   │   ├── generateKeys.js
-│   │   ├── encryptFile.js
-│   │   └── decryptFile.js
-│   │
-│   └── index.js
-│
-└── data/
-    ├── input.txt
-    ├── encrypted.pgp
-    └── decrypted.txt
-
 ⚙️ Installation & Setup
 1. Install dependencies
 npm install
