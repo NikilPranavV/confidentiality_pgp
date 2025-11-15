@@ -8,8 +8,6 @@ The implementation follows modern best practices and includes:
 ✔ Full folder structure
 ✔ Key generation
 ✔ Encryption & decryption
-✔ Environment variables
-✔ CommonJS modules
 ✔ TXT file encryption workflow
 
 ⚙️ Installation & Setup
